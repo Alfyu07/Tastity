@@ -56,8 +56,8 @@ class _MainPageState extends State<MainPage> {
                         decoration: BoxDecoration(
                             shape: BoxShape.circle,
                             gradient: LinearGradient(colors: [
-                              Color(0xff488D7F),
-                              Color(0xff488D7F).withOpacity(0.55)
+                              const Color(0xff488D7F),
+                              const Color(0xff488D7F).withOpacity(0.55)
                             ])),
                       ),
                     ],

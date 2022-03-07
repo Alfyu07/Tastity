@@ -1,4 +1,4 @@
-part of 'widgets.dart';
+part of '../../widgets.dart';
 
 class SliderJadwal extends StatelessWidget {
   final Jadwal jadwal;
@@ -33,7 +33,7 @@ class SliderJadwal extends StatelessWidget {
                   DateFormat('EEEE')
                       .format(jadwal.from ?? DateTime.now())
                       .substring(0, 3),
-                  style: normalText),
+                  style: normal),
             ],
           ),
           const SizedBox(width: 24),
@@ -54,7 +54,7 @@ class SliderJadwal extends StatelessWidget {
                   const SizedBox(width: 8),
                   Text(
                     "${DateFormat("HH:mm").format(jadwal.from ?? DateTime.now())} - ${DateFormat("HH:mm").format(jadwal.until ?? DateTime.now())} WITA",
-                    style: normalText.copyWith(
+                    style: normal.copyWith(
                       color: titleColor,
                     ),
                   )
@@ -67,7 +67,7 @@ class SliderJadwal extends StatelessWidget {
                     : jadwal.status == Status.complete
                         ? "Penukaran selesai"
                         : "Menunggu Jemputan",
-                style: normalText.copyWith(
+                style: normal.copyWith(
                   color: peach700,
                 ),
               ),

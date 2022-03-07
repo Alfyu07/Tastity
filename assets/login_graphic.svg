@@ -1,0 +1,27 @@
+<svg width="250" height="136" viewBox="0 0 250 136" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="64.5" y="99.5" width="23" height="23" fill="#E78669" stroke="#4A4A4A"/>
+<rect x="83.5" y="39.5" width="23" height="47" fill="#F7D9CF" stroke="#4A4A4A"/>
+<rect x="39.5" y="75.5" width="87" height="31" stroke="#4A4A4A"/>
+<rect x="126.5" y="31.5" width="91" height="31" transform="rotate(90 126.5 31.5)" stroke="#4A4A4A"/>
+<rect x="39.5" y="44.5" width="91" height="31" transform="rotate(90 39.5 44.5)" stroke="#4A4A4A"/>
+<rect x="111.5" y="75.5" width="23" height="23" fill="#FAFAFA"/>
+<rect x="111.5" y="75.5" width="23" height="23" fill="#488D7F"/>
+<rect x="111.5" y="75.5" width="23" height="23" stroke="#4A4A4A"/>
+<rect x="0.5" y="36.5" width="23" height="23" fill="#A1D0B7" stroke="#4A4A4A"/>
+<rect x="8.5" y="75.5" width="31" height="31" stroke="#4A4A4A"/>
+<rect x="186.5" y="39.5" width="62" height="31" stroke="#4A4A4A"/>
+<rect x="186.5" y="39.5" width="31" height="31" fill="#488D7F" stroke="#4A4A4A"/>
+<rect x="217.5" y="102.5" width="31" height="31" fill="#E78669" stroke="#4A4A4A"/>
+<rect x="218.5" y="0.5" width="31" height="31" fill="#F7D9CF" stroke="#4A4A4A"/>
+<rect x="217.5" y="70.5" width="31" height="63" stroke="#4A4A4A"/>
+<defs>
+<linearGradient id="paint0_linear_308_7736" x1="135" y1="103" x2="104" y2="59" gradientUnits="userSpaceOnUse">
+<stop stop-color="#488D7F"/>
+<stop offset="1" stop-color="#488D7F" stop-opacity="0.55"/>
+</linearGradient>
+<linearGradient id="paint1_linear_308_7736" x1="212.8" y1="72.6" x2="186" y2="18.2" gradientUnits="userSpaceOnUse">
+<stop stop-color="#488D7F"/>
+<stop offset="1" stop-color="#488D7F" stop-opacity="0.55"/>
+</linearGradient>
+</defs>
+</svg>

@@ -1,4 +1,4 @@
-part of 'widgets.dart';
+part of '../../widgets.dart';
 
 class SliderItem extends StatelessWidget {
   final Widget imageChild;

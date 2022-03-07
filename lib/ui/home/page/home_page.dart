@@ -1,4 +1,4 @@
-part of 'pages.dart';
+part of '../../pages.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -10,7 +10,7 @@ class HomePage extends StatelessWidget {
         children: [
           Container(
             height: 960,
-            color: const Color(0xffFAFAFA),
+            color: bgColor,
           ),
           //*background
           Positioned(
@@ -76,14 +76,14 @@ class HomePage extends StatelessWidget {
                       children: [
                         Text(
                           'Hi, Amara',
-                          style: boldText.copyWith(
+                          style: bold.copyWith(
                             color: whiteColor,
                             fontSize: 24,
                           ),
                         ),
                         Text(
                           'Edukasi dan tukar sampah yuk',
-                          style: normalText.copyWith(color: whiteColor),
+                          style: normal.copyWith(color: whiteColor),
                         ),
                       ],
                     ),
@@ -110,8 +110,8 @@ class HomePage extends StatelessWidget {
           //*Menu
           Positioned(
             top: 174,
-            left: 40,
-            right: 40,
+            left: 20,
+            right: 20,
             height: 147,
             child: Container(
               width: 335,
@@ -132,7 +132,7 @@ class HomePage extends StatelessWidget {
                       const SizedBox(width: 8),
                       Text(
                         'MED Poin',
-                        style: boldText.copyWith(
+                        style: bold.copyWith(
                           color: titleColor,
                           fontSize: 18,
                         ),
@@ -140,7 +140,7 @@ class HomePage extends StatelessWidget {
                       const Spacer(),
                       Text(
                         '35',
-                        style: boldText.copyWith(
+                        style: bold.copyWith(
                           color: titleColor,
                           fontSize: 18,
                         ),
@@ -183,7 +183,7 @@ class HomePage extends StatelessWidget {
                       width: 165,
                       child: Text(
                         'Tukar poinmu, dapat reward menarik',
-                        style: boldText.copyWith(
+                        style: bold.copyWith(
                           color: whiteColor,
                           fontSize: 12,
                         ),
@@ -213,19 +213,19 @@ class HomePage extends StatelessWidget {
                                   text: " MED Poin",
                                 ),
                               ],
-                              style: boldText.copyWith(
+                              style: bold.copyWith(
                                   color: whiteColor, fontSize: 12)),
                         ),
                         Text(
                           "dengan saldo Gopay, OVO,",
-                          style: boldText.copyWith(
+                          style: bold.copyWith(
                             color: whiteColor,
                             fontSize: 12,
                           ),
                         ),
                         Text(
                           "Dana atau ShopeePay",
-                          style: boldText.copyWith(
+                          style: bold.copyWith(
                             color: whiteColor,
                             fontSize: 12,
                           ),
@@ -277,7 +277,7 @@ class HomePage extends StatelessWidget {
                       width: 165,
                       child: Text(
                         'Cintai \nLingkungan ',
-                        style: boldText.copyWith(
+                        style: bold.copyWith(
                           color: whiteColor,
                           fontSize: 18,
                         ),
@@ -314,11 +314,11 @@ class HomePage extends StatelessWidget {
                 children: [
                   Text(
                     "Jadwal Penukaran",
-                    style: boldText.copyWith(color: titleColor, fontSize: 18),
+                    style: bold.copyWith(color: titleColor, fontSize: 18),
                   ),
                   Text(
                     "Lihat semua",
-                    style: normalText.copyWith(color: green700, fontSize: 10),
+                    style: normal.copyWith(color: green700, fontSize: 10),
                   )
                 ],
               ),
@@ -358,11 +358,11 @@ class HomePage extends StatelessWidget {
                 children: [
                   Text(
                     "Edukasi Yuk!",
-                    style: boldText.copyWith(color: titleColor, fontSize: 18),
+                    style: bold.copyWith(color: titleColor, fontSize: 18),
                   ),
                   Text(
                     "Lihat semua",
-                    style: normalText.copyWith(color: green700, fontSize: 10),
+                    style: normal.copyWith(color: green700, fontSize: 10),
                   )
                 ],
               ),
@@ -426,7 +426,7 @@ class HomePage extends StatelessWidget {
                       child: Text(
                         dummyArticles[index].title ?? "Judul article",
                         maxLines: 2,
-                        style: boldText.copyWith(
+                        style: bold.copyWith(
                           fontSize: 16,
                           color: titleColor,
                           backgroundColor: Colors.white,
